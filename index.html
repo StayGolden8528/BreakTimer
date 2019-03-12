@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Project 1</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="assets/axel.png" type="image/x-icon"/>
+	<link rel="apple-touch-icon" sizes="57x57" href="assets/axel.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="assets/axel.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="assets/axel.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="assets/axel.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="assets/axel.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="assets/axel.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="assets/axel.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="assets/axel.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="assets/axel.png">
+	<link rel="icon" type="image/png" href="assets/axel.png" sizes="16x16">
+	<link rel="icon" type="image/png" href="assets/axel.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="assets/axel.png" sizes="96x96">
+	<link rel="icon" type="image/png" href="assets/axel.png" sizes="192x192">
+	<meta name="msapplication-square70x70logo" content="assets/axel.png"/>
+	<meta name="msapplication-square150x150logo" content="assets/axel.png"/>
+	<meta name="msapplication-wide310x150logo" content="assets/axel.png"/>
+	<meta name="msapplication-square310x310logo" content="assets/axel.png"/>
+	<script defer src="https://use.fontawesome.com/releases/v5.0.12/js/all.js" integrity="sha384-Voup2lBiiyZYkRto2XWqbzxHXwzcm4A5RfdfG6466bu5LqjwwrjXCMBQBLMWh7qR" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="styles/style.css"/>
+	
+</head>
+<body>
+	<div class="wrapper">
+		<div class="open" id="open">
+			<h1>Break Timer</h1>
+			<h3>Improve Productivity With Time Management</h3>
+		</div>
+		<div class="timeRemain">
+			<h4>Time Remaining:</h4>
+			<h4><span class="counter" id="returnTime">00:00</span></h4>
+		</div>
+
+		<div class="wrapper">
+			<button id="stop"><i class="far fa-stop-circle"></i><span></span></button>
+			<!-- <button id="subtract"><i class="fa fa-minus"></i><span></span></button>
+			<button id="add"><i class="fa fa-plus"></i><span></span></button> -->
+			<button id="start"><i class="fas fa-play-circle"></i><span></span></button>	
+		</div>
+		
+		<div>
+			<img id="switchImg" src="assets/image-2.jpg">
+		</div>	
+		<div>	
+			<button class="work countdown" id="partyTimeButton" data-time="45">Work - 45 Min</button>
+			<button class="onBreak countdown" id="partyTimeButton" data-time="15">Break - 15 Min</button>
+			<button class="lunch countdown" id="partyTimeButton" data-time="30">Lunch - 30 Min</button>
+			<button class="party countdown" id="partyTimeButton">Party Time!</button>
+		</div>
+		<div class="soundCloud">
+			<iframe id="playMe" width="60%" height="100" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/34122390&color=%231400ff&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+		</div>
+	</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" src="scripts.js"></script>
+</body>
+</html>
