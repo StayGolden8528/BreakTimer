@@ -82,24 +82,7 @@ window.onload = function() {
 			
 		});	
 	});	
-
 });	
 
-//Easily visible countdown timer
-
-//Pseudocode steps:
-
-//1 - Establish global variables for time increments
-
-//2 - Find a way to add 00:00 (time) into span #returnTime
-
-//3 - create a function(s) that increment the counter by the button clicked for - done
-
-// 4 - clearInterval when timer reaches zero 
-
-//Change image of studious dog when work time = 0 to break image of ross - done
-
-//change image to party time image and queue music
-//button classes: "lunch", "onBreak", "party", "work" - done
 
 });	// document ready end
