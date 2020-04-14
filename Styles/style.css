@@ -63,14 +63,18 @@ img {
   padding: 25px;
 }
 
+.images {
+  margin: 0 auto;
+}
+
 .soundCloud {
 	padding: 20px;
 }
 
 @media (max-width: 375px) {
   img {
-    max-width: 340px;
-    max-height: 340px;
+    max-width: 290px;
+    max-height: 350px;
   }
 }
 
