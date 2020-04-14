@@ -52,13 +52,9 @@ function startTimer() {
 	} else if (seconds === 900) {
 		switchImg.setAttribute('src', 'assets/image-2.jpg');
   } else if (seconds === 300) {
-  	switchImg.setAttribute('src', 'assets/image-4.jpg')
+  	switchImg.setAttribute('src', 'assets/image-3.jpeg')
 	}
 }
 buttons.forEach(button => button.addEventListener('click', startTimer));
 
-// buttons.forEach(button => button.addEventListener('click', function (e) {
-// 	const time = this.data-time;
 
-
-// }));
