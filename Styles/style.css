@@ -58,14 +58,13 @@ body {
 }
 
 img {
-	height: 400px;
-	width: 400px;
+	max-height: 400px;
+	max-width: 400px;
 	padding: 25px;
 }
 
 .soundCloud {
 	padding: 20px;
-	/*display: none;*/
 }
 
 
